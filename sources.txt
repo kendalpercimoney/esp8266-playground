@@ -1,0 +1,6 @@
+https://blog.marxy.org/2019/06/arduino-esp8266-with-on-board-oled.html
+
+https://github.com/ThingPulse/esp8266-oled-ssd1306
+
+Nodemcu is the breakout board (development board)
+
