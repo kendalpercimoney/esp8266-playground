@@ -60,9 +60,18 @@ void loop() {
 
     // Display the verse on the OLED
     display.clear();
-    display.drawStringMaxWidth(0, 3, 128, "Verse:");
-    display.drawStringMaxWidth(0, 14, 128, verse);
+    //display.drawStringMaxWidth(0, 3, 128, "Verse:");
+    //display.drawStringMaxWidth(0, 14, 128, verse);
     display.display();
+
+    // Scroll the content manually
+    for (int i = 0; i < 34; i++) { // Scroll for 38 iterations
+      delay(250);
+      display.clear();
+      display.drawStringMaxWidth(0, 12 - i, 132, verse);
+      display.display();
+    }
+
   } else {
     display.clear();
     display.drawString(0, 12, "Failed to connect to endpoint");
