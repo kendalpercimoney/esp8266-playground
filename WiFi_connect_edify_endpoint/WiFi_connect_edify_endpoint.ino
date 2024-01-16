@@ -68,7 +68,7 @@ void loop() {
     for (int i = 0; i < 34; i++) { // Scroll for 38 iterations
       delay(250);
       display.clear();
-      display.drawStringMaxWidth(0, 12 - i, 132, verse);
+      display.drawStringMaxWidth(0, 12 - i, 128, verse);
       display.display();
     }
 
