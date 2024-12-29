@@ -1,7 +1,7 @@
 //working
 
 #include "SSD1306Wire.h"
-#include "ESP8266WiFi.h"
+
 // Initialize the OLED display using Arduino Wire:
 SSD1306Wire display(0x3c, D6, D5); // reversed!
 
