@@ -23,7 +23,7 @@ void loop() {
   display.clear();
   int height = 10;
   
-  display.drawString(0, 12, "Cheylin Percimoney is great.");
+  display.drawString(0, 12, "Screen is working!");
   
   //String ssid = WiFi.SSID(i);
  
