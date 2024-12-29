@@ -24,15 +24,7 @@ void loop() {
   int height = 10;
   
   display.drawString(0, 12, "Screen is working!");
-  
-  //String ssid = WiFi.SSID(i);
- 
-  //String line = ssid + ": " + rssi + " " + encryption;
-  //    display.drawString(0, y, line);
-      display.display();
-  //    delay(10);
-    
-  
+  display.display();
 
   // Wait a bit before scanning again
   delay(5000);
